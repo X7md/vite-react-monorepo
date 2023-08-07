@@ -7,6 +7,7 @@
     "dev": "npm run dev --workspaces --if-present && vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview-story": "npm run preview-story --workspace=@react-app/ui",
     "preview": "vite preview"
   },
   "workspaces": [
